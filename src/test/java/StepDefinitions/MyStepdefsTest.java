@@ -3,7 +3,9 @@ package StepDefinitions;
 import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
+@Test
 public class MyStepdefsTest {
 
     private static WebDriver driver;
